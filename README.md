@@ -1,3 +1,50 @@
+# Template Awal - DESIGN UI
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scan Qr Code"
+        android:layout_alignParentBottom="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="nama" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="xyz"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+    </LinearLayout>
+</RelativeLayout>
+
+![Screenshot (38)](https://user-images.githubusercontent.com/116171779/197368209-be8d304a-f710-4e87-8fcd-d663d113c306.png)
+
+
+
+
 # Pemrograman-mobile-1
 <?xml version="1.0" encoding="utf-8"?>
     <RelativeLayout
